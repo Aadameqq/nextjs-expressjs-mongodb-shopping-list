@@ -1,0 +1,24 @@
+{
+  "name": "nextjs-expressjs-mongodb-shopping-list",
+  "scripts": {
+    "dev": "nodemon -e ts  --exec \"npm run build:server\" ",
+    "build:server": "tsc --project tsconfig.server.json && node dist/server.js",
+    "build:frontend": "next build",
+    "start": "node dist/server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.2",
+    "mongoose": "^5.13.2",
+    "next": "12.0.7",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/node": "17.0.4",
+    "@types/react": "17.0.38",
+    "eslint": "8.5.0",
+    "eslint-config-next": "12.0.7",
+    "typescript": "4.5.4"
+  }
+}

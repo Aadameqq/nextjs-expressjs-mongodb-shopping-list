@@ -1,0 +1,7 @@
+{
+  "PORT": port,
+  "NODE_ENV": "development",
+  "NEXT_DIR": ".",
+  "MONGO_URI": "mongo url",
+  "MONGO_DB_NAME": "db name"
+}

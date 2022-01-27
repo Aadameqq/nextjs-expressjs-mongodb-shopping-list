@@ -1,0 +1,36 @@
+.container {
+  width: 100%;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  filter: drop-shadow(4px 4px 10px rgba(0, 0, 0, 0.17));
+  margin-bottom: 40px;
+  max-width: 1000px;
+}
+.input {
+  border: none;
+  width: calc(100% - 120px);
+  height: 100%;
+  font-size: 0.4rem;
+  color: #3a3a3a;
+  padding: 0 20px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.input:focus {
+  outline: none;
+}
+
+.button {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  width: 120px;
+  height: 100%;
+  border: none;
+  background: #007bff;
+  font-size: 0.4rem;
+  color: aliceblue;
+}
